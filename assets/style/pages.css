@@ -1,0 +1,388 @@
+@import url('/assets/style/home.css');
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 30px;
+}
+.area_fotos{
+    display: flex;
+    flex: 1;
+}
+
+.area_fotos .foto{
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.area_fotos .foto:hover{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.btn{
+    width: 40px;
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(168, 86, 28);
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    box-shadow: 2px 2px 4px black;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+.intimo{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*fotos tattoo*/
+
+.tattoo_ft1{
+    background-image: url('../img/banner/principal/bn_tattoo.png');
+}
+.tattoo_ft2{
+    background-image: url('../img/banner/principal/bn_tattoo_2.png');
+}
+.tattoo_ft3{
+    background-image: url('../img/banner/principal/bn_tattoo_3.png');
+}
+.tattoo_ft4{
+    background-image: url('../img/banner/principal/bn_tattoo_4.png');
+}
+.tattoo_ft5{
+    background-image: url('../img/banner/principal/bn_tattoo_5.png');
+}
+.tattoo_ft6{
+    background-image: url('../img/banner/principal/bn_tattoo_6.png');
+}
+.tattoo_ft7{
+    background-image: url('../img/banner/principal/bn_tattoo_7.png');
+}
+.tattoo_ft8{
+    background-image: url('../img/banner/principal/bn_tattoo_8.png');
+}
+.tattoo_ft9{
+    background-image: url('../img/banner/principal/bn_tattoo_9.png');
+}
+.tattoo_ft10{
+    background-image: url('../img/banner/principal/bn_tattoo_10.png');
+}
+.tattoo_ft11{
+    background-image: url('../img/banner/principal/bn_tattoo_11.png');
+}
+.tattoo_ft12{
+    background-image: url('../img/banner/principal/bn_tattoo_12.png');
+}
+.tattoo_ft13{
+    background-image: url('../img/banner/principal/bn_tattoo_13.png');
+}
+.tattoo_ft14{
+    background-image: url('../img/banner/principal/bn_tattoo_14.png');
+}
+.tattoo_ft15{
+    background-image: url('../img/banner/principal/bn_tattoo_15.png');
+}
+.tattoo_ft16{
+    background-image: url('../img/banner/principal/bn_tattoo_16.png');
+}
+.tattoo_ft17{
+    background-image: url('../img/banner/principal/bn_tattoo_17.png');
+}
+.tattoo_ft18{
+    background-image: url('../img/banner/principal/bn_tattoo_18.png');
+}
+.tattoo_ft19{
+    background-image: url('../img/banner/principal/bn_tattoo_19.png');
+}
+.tattoo_ft20{
+    background-image: url('../img/banner/principal/bn_tattoo_20.png');
+}
+.tattoo_ft21{
+    background-image: url('../img/banner/principal/bn_tattoo_21.png');
+}
+.tattoo_ft22{
+    background-image: url('../img/banner/principal/bn_tattoo_22.png');
+}
+.tattoo_ft23{
+    background-image: url('../img/banner/principal/bn_tattoo_23.png');
+}
+.tattoo_ft24{
+    background-image: url('../img/banner/principal/bn_tattoo_24.png');
+}
+.tattoo_ft25{
+    background-image: url('../img/banner/principal/bn_tattoo_25.png');
+}
+.tattoo_ft26{
+    background-image: url('../img/banner/principal/bn_tattoo_26.png');
+}
+.tattoo_ft27{
+    background-image: url('../img/banner/principal/bn_tattoo_27.png');
+}
+.tattoo_ft28{
+    background-image: url('../img/banner/principal/bn_tattoo_28.png');
+}
+.tattoo_ft29{
+    background-image: url('../img/banner/principal/bn_tattoo_29.png');
+}
+.tattoo_ft30{
+    background-image: url('../img/banner/principal/bn_tattoo_30.png');
+}
+.tattoo_ft31{
+    background-image: url('../img/banner/principal/bn_tattoo_31.png');
+}
+.tattoo_ft32{
+    background-image: url('../img/banner/principal/bn_tattoo_32.png');
+}
+.tattoo_ft33{
+    background-image: url('../img/banner/principal/bn_tattoo_33.png');
+}
+.tattoo_ft34{
+    background-image: url('../img/banner/principal/bn_tattoo_34.png');
+}
+.tattoo_ft35{
+    background-image: url('../img/banner/principal/bn_tattoo_35.png');
+}
+.tattoo_ft36{
+    background-image: url('../img/banner/principal/bn_tattoo_36.png');
+}
+.tattoo_ft37{
+    background-image: url('../img/banner/principal/bn_tattoo_37.png');
+}
+.tattoo_ft38{
+    background-image: url('../img/banner/principal/bn_tattoo_38.png');
+}
+.tattoo_ft39{
+    background-image: url('../img/banner/principal/bn_tattoo_39.png');
+}
+.tattoo_ft40{
+    background-image: url('../img/banner/principal/bn_tattoo_40.png');
+}
+.tattoo_ft41{
+    background-image: url('../img/banner/principal/bn_tattoo_41.png');
+}
+.tattoo_ft42{
+    background-image: url('../img/banner/principal/bn_tattoo_42.png');
+}
+.tattoo_ft43{
+    background-image: url('../img/banner/principal/bn_tattoo_43.png');
+}
+.tattoo_ft44{
+    background-image: url('../img/banner/principal/bn_tattoo_44.png');
+}
+.tattoo_ft45{
+    background-image: url('../img/banner/principal/bn_tattoo_45.png');
+}
+.tattoo_ft46{
+    background-image: url('../img/banner/principal/bn_tattoo_46.png');
+}
+.tattoo_ft47{
+    background-image: url('../img/banner/principal/bn_tattoo_47.png');
+}
+.tattoo_ft48{
+    background-image: url('../img/banner/principal/bn_tattoo_48.png');
+}
+.tattoo_ft49{
+    background-image: url('../img/banner/principal/bn_tattoo_49.png');
+}
+.tattoo_ft50{
+    background-image: url('../img/banner/principal/bn_tattoo_50.png');
+}
+.tattoo_ft51{
+    background-image: url('../img/banner/principal/bn_tattoo_51.png');
+}
+.tattoo_ft52{
+    background-image: url('../img/banner/principal/bn_tattoo_52.png');
+}
+.tattoo_ft53{
+    background-image: url('../img/banner/principal/bn_tattoo_53.png');
+}
+.tattoo_ft54{
+    background-image: url('../img/banner/principal/bn_tattoo_54.png');
+}
+.tattoo_ft55{
+    background-image: url('../img/banner/principal/bn_tattoo_55.png');
+}
+.tattoo_ft56{
+    background-image: url('../img/banner/principal/bn_tattoo_56.png');
+}
+.tattoo_ft57{
+    background-image: url('../img/banner/principal/bn_tattoo_57.png');
+}
+.tattoo_ft58{
+    background-image: url('../img/banner/principal/bn_tattoo_58.png');
+}
+.tattoo_ft59{
+    background-image: url('../img/banner/principal/bn_tattoo_59.png');
+}
+.tattoo_ft60{
+    background-image: url('../img/banner/principal/bn_tattoo_60.png');
+}
+.tattoo_ft61{
+    background-image: url('../img/banner/principal/bn_tattoo_61.png');
+}
+.tattoo_ft62{
+    background-image: url('../img/banner/principal/bn_tattoo_62.png');
+}
+.tattoo_ft63{
+    background-image: url('../img/banner/principal/bn_tattoo_63.png');
+}
+.tattoo_ft64{
+    background-image: url('../img/banner/principal/bn_tattoo_64.png');
+}
+.tattoo_ft65{
+    background-image: url('../img/banner/principal/bn_tattoo_65.png');
+}
+.tattoo_ft66{
+    background-image: url('../img/banner/principal/bn_tattoo_66.png');
+}
+.tattoo_ft67{
+    background-image: url('../img/banner/principal/bn_tattoo_67.png');
+}
+.tattoo_ft68{
+    background-image: url('../img/banner/principal/bn_tattoo_68.png');
+}
+
+/*fotos piercing*/
+
+.pg_ft1{
+    background-image: url('../img/banner/piercing/bn_piercing.png');
+}
+.pg_ft2{
+    background-image: url('../img/banner/piercing/bn_piercing_2.png');
+}
+.pg_ft3{
+    background-image: url('../img/banner/piercing/bn_piercing_3.png');
+}
+.pg_ft4{
+    background-image: url('../img/banner/piercing/bn_piercing_4.png');
+}
+.pg_ft5{
+    background-image: url('../img/banner/piercing/bn_piercing_5.png');
+}
+.pg_ft6{
+    background-image: url('../img/banner/piercing/bn_piercing_6.png');
+}
+.pg_ft7{
+    background-image: url('../img/banner/piercing/bn_piercing_7.png');
+}
+.pg_ft8{
+    background-image: url('../img/banner/piercing/bn_piercing_8.png');
+}
+.pg_ft9{
+    background-image: url('../img/banner/piercing/bn_piercing_9.png');
+}
+.pg_ft10{
+    background-image: url('../img/banner/piercing/bn_piercing_10.png');
+}
+.pg_ft11{
+    background-image: url('../img/banner/piercing/bn_piercing_11.png');
+}
+.pg_ft12{
+    background-image: url('../img/banner/piercing/bn_piercing_12.png');
+}
+.pg_ft13{
+    background-image: url('../img/banner/piercing/bn_piercing_13.png');
+}
+.pg_ft14{
+    background-image: url('../img/banner/piercing/bn_piercing_14.png');
+}
+.pg_ft15{
+    background-image: url('../img/banner/piercing/bn_piercing_15.png');
+}
+.pg_ft16{
+    background-image: url('../img/banner/piercing/bn_piercing_16.png');
+}
+.pg_ft17{
+    background-image: url('../img/banner/piercing/bn_piercing_17.png');
+}
+.pg_ft18{
+    background-image: url('../img/banner/piercing/bn_piercing_18.png');
+}
+.pg_ft19{
+    background-image: url('../img/banner/piercing/bn_piercing_19.png');
+}
+.pg_ft20{
+    background-image: url('../img/banner/piercing/bn_piercing_20.png');
+}
+.pg_ft21{
+    background-image: url('../img/banner/piercing/bn_piercing_21.png');
+}
+.pg_ft22{
+    background-image: url('../img/banner/piercing/bn_piercing_22.png');
+}
+.pg_ft23{
+    background-image: url('../img/banner/piercing/bn_piercing_23.png');
+}
+.pg_ft24{
+    background-image: url('../img/banner/piercing/bn_piercing_24.png');
+}
+.pg_ft25{
+    background-image: url('../img/banner/+18/bn_piercing_25.jpg');
+}
+.pg_ft26{
+    background-image: url('../img/banner/+18/bn_piercing_26.jpg');
+}
+.pg_ft27{
+    background-image: url('../img/banner/+18/bn_piercing_27.jpg');
+}
+.pg_ft28{
+    background-image: url('../img/banner/+18/bn_piercing_28.jpg');
+}
+.pg_ft29{
+    background-image: url('../img/banner/+18/bn_piercing_29.jpg');
+}
+.pg_ft30{
+    background-image: url('../img/banner/+18/bn_piercing_30.jpg');
+}
+.pg_ft31{
+    background-image: url('../img/banner/+18/bn_piercing_31.jpg');
+}
+.pg_ft32{
+    background-image: url('../img/banner/+18/bn_piercing_32.jpg');
+}
+.pg_ft33{
+    background-image: url('../img/banner/+18/bn_piercing_33.jpg');
+}
+.pg_ft34{
+    background-image: url('../img/banner/+18/bn_piercing_34.jpg');
+}
+.pg_ft35{
+    background-image: url('../img/banner/+18/bn_piercing_35.jpg');
+}
+.pg_ft36{
+    background-image: url('../img/banner/+18/bn_piercing_36.jpg');
+}
+
+/*responsividade tablets*/
+
+@media (max-width: 800px){
+    .area_fotos{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 643px){
+    .area_fotos{
+        flex-direction: column;
+    }
+}
