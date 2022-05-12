@@ -119,7 +119,7 @@ nav a:hover{
     font-weight: bold;
     font-size: 30px;
     text-transform: uppercase;
-    color: #FFCC29;
+    color: #bd701d;
     margin-top: 30px;
 }
 .cont p::before{
@@ -332,11 +332,10 @@ nav a:hover{
     font-family: var(--serv);
 }
 
-.design .slide{
-    background-image: url('../img/banner/design/bn_design_tattoo_2.jpg');
-    animation-name: design;
-    background-size: cover;
-    background-position: center bottom;
+.slide video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /*seção map*/
@@ -348,6 +347,7 @@ nav a:hover{
     height: 400px;
     background-image: url('../img/map.png');
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 

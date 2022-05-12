@@ -74,18 +74,3 @@
         background-image: url('../img/banner/piercing/bn_piercing_14.png');
     }
 }
-
-@keyframes design{
-    25%{
-        background-image: url('../img/banner/design/bn_design_tattoo_3.jpg');
-    }
-    50%{
-        background-image: url('../img/banner/design/bn_design_tattoo_4.jpg');
-    }
-    75%{
-        background-image: url('../img/banner/design/bn_design_tattoo.jpg');
-    }
-    100%{
-        background-image: url('../img/banner/design/bn_design_tattoo_2.jpg');
-    }
-}
